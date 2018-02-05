@@ -47,7 +47,7 @@
     <h1 class="title text-center"><?= the_title() ?></h1>
     <div class="row">
       <div class="col-md-12">
-        <ul id="album">
+        <!-- <ul id="album"> -->
           <?php
             $query = new WP_Query( array(
               'category_name' => 'Galeri',
@@ -62,7 +62,7 @@
               endwhile;
             endif;
           ?>
-        </ul>
+        <!-- </ul> -->
       </div>
     </div>
   </div>
