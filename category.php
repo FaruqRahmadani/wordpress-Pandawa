@@ -52,7 +52,7 @@
         <ul id="album">
           <?php
             $query = new WP_Query( array(
-              'category_name' => 'galeri',
+              'category_name' => 'Galeri',
             ) );
             if( $query->have_posts() ):
               while( $query->have_posts() ): $query->the_post();
